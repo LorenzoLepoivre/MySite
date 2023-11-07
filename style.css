@@ -94,6 +94,10 @@ footer img{
 	display: inline-block;
 }
 
+#fnaf .center_container img{
+	padding: -10px 0 -10px 0;
+}
+
 @media screen and (min-width: 1024px) {
 	header nav ul{
     list-style: none;
