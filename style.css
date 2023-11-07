@@ -1,0 +1,163 @@
+body{
+    margin:0;
+} 
+
+header nav{
+   background:linear-gradient(160deg, #cc0001, #cc0001 50%, #010101 50%, #010101);
+}	
+
+a{
+	text-decoration:none;
+}
+
+header nav ul{
+    list-style: none;
+    margin:0;
+	display:flex;
+	flex-direction:column;	
+	align-items:center;
+}
+
+header nav ul li{
+	padding:10px;
+}
+	
+header nav a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+	margin:5px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+header nav a:hover, header nav a:active{
+    color:#fed700
+}
+
+main{
+	margin: 0;
+	padding: 10px;
+}
+
+main section{
+	margin: 0 0 15px 0;
+}
+
+main p, main h3{
+	padding: 0 0 0 10px;
+}
+
+main h2{
+	margin:0;
+}
+
+main h3, main h4, main ul{
+	margin:5px 0 5px 0;
+}
+
+main h4{
+	padding: 0 0 0 15px;
+}
+
+main p, main li {
+	font-size: 1rem;
+}
+
+footer{
+    background-color: #fed700;
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 5px;
+    color: #000000;
+	line-height: 1;
+}
+
+footer img{
+	width: 15%;
+	margin: -10px 0 0 0;
+}
+
+.center_container{
+	text-align: center;
+}
+
+.center_container img{
+	width: 80%;
+	display: inline-block;
+}
+
+.center_container iframe{
+	width: 80%;
+	display: inline-block;
+}
+
+@media screen and (min-width: 1024px) {
+	header nav ul{
+    list-style: none;
+    margin:0;
+	display:flex;
+	flex-direction:row;	
+	justify-content:center;
+	align-items:center;
+	}
+
+	main p, main li {
+		text-align: justify;
+		font-size: 1.2rem;
+	}
+
+	header nav ul li a{
+		font-size: 1.8rem;
+	}
+	
+	body{
+		background-color: #eee; 
+	}
+	
+	main{
+		max-width: 50%; 
+		margin: 0 auto; 
+		padding: 10px 10px 50px 10px;
+		background-color: #fff; 
+	}
+	
+	footer img{
+		width: 5%;
+	}
+	
+	.center_container img{
+		width: 40%;
+		display: inline-block;
+	}
+	
+	#fnaf .center_container img{
+		width: 35%;
+	}
+
+	#cable .center_container img{
+		width: 30%;
+	}
+
+	.center_container iframe{
+		width: 40%;
+		display: inline-block;
+	}
+
+	footer{
+		background-color: #fed700;
+		text-align: center;
+		font-style: italic;
+		font-size: 1rem;
+		padding: 5px;
+		color: #000000;
+		line-height: 1;
+	}
+
+	footer img{
+		width: 5%;
+		margin: -10px 0 0 0;
+	}
+}
